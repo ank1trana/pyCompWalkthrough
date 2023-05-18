@@ -1,3 +1,4 @@
+import curses
 import numpy as np
 
 this = "Python's way to apostrophe"
@@ -25,3 +26,36 @@ print(triplestr[0:])
 
 #assume zero as start in below
 print(triplestr[0:5])
+
+
+first = 'John'
+last = 'Doe'
+
+message = first + ' ' + last + ' is a coder.'
+print(message)
+
+#formatted string
+
+msg = f'{first} {last} is a coder.' 
+print(msg)
+
+#length of the string
+print(len(message))
+#change case
+print(message.upper())
+print(message)
+#original string isnot modified
+print(message.lower())
+
+#index of char's first occurence
+print(message.find('o'))
+
+#replacement of string
+print(message.replace('o','3'))
+print(message)
+#again replace doesnt change original
+
+#below is boolean, find brings the index
+print('Doe' in message)
+#first char is caps
+print(message.title())
