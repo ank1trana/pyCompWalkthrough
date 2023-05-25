@@ -59,3 +59,9 @@ print(message)
 print('Doe' in message)
 #first char is caps
 print(message.title())
+
+
+#in operator
+oh = "this is not a keyword either"
+print('>>>>>>>>' + 'keyword' in oh)
+#in the above concat was done first
