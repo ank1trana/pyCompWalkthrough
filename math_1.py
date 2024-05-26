@@ -1,5 +1,5 @@
 #all the arithmetic stuff
-print(12+12)
+print(12.0+12)
 #flaot
 print(12/12)
 #this gives int
